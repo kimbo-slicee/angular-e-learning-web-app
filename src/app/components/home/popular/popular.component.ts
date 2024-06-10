@@ -11,7 +11,7 @@ export class PopularComponent {
   courseService = inject(CourseService)
   popularCourses: Course[] = [];
   ngOnInit(){
-    this.popularCourses = this.courseService.courses.filter(c => c.rating >= 4.5);
+    this.popularCourses = this.courseService.courses.filter(c => c.rating >= 5);
   }
 
 }

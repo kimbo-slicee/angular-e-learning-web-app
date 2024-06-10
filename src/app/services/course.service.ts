@@ -15,11 +15,11 @@ export class CourseService {
                                     mollit anim id est laborum."`;
 
   courses: Course[] = [
-    { id: 1, title: 'Complete Modern HTML Course', price: 200, desc: this.description, image: './../assets/courses/html5.png', rating: 5, duration: 10, author: 'Mohammed el lorry'},
-    { id: 2, title: 'Complete Modern HTML Course', price: 200, desc: this.description, image: './../assets/courses/html5.png', rating: 5, duration: 10, author: 'Mohammed el lorry'},
-    { id: 3, title: 'Complete Modern HTML Course', price: 200, desc: this.description, image: './../assets/courses/html5.png', rating: 5, duration: 10, author: 'Mohammed el lorry'},
-    { id: 4, title: 'Complete Modern HTML Course', price: 200, desc: this.description, image: './../assets/courses/html5.png', rating: 5, duration: 10, author: 'Mohammed el lorry'},
-    { id: 5, title: 'Complete Modern JavaScript Course', price: 499, desc: this.description, image: './../assets/courses/course1.jpg', rating: 4.5, duration: 18.2, author: 'Steve smith'},
+    { id: 1, title: 'Complete Modern HTML Course', price: 100, desc: this.description, image: './../assets/courses/html5.png', rating: 5, duration: 10, author: 'Mohammed el lorry'},
+    { id: 2, title: 'Complete Modern CSS Course', price: 200, desc: this.description, image: './../assets/courses/Css.png', rating: 5, duration: 10, author: 'Mohammed el lorry'},
+    { id: 3, title: 'Complete Modern JavaScript Course', price: 399, desc: this.description, image: './../assets/courses/course1.jpg', rating: 5, duration: 18.2, author: 'Steve smith'},
+    { id: 4, title: 'Complete Modern TYPESCRIPT Course', price: 200, desc: this.description, image: './../assets/courses/typeScript.png', rating: 5, duration: 10, author: 'Mohammed el lorry'},
+    { id: 5, title: 'Complete Modern PHP Course', price: 499, desc: this.description, image: './../assets/courses/php.png', rating: 3.5, duration: 10, author: 'Mohammed el lorry'},
     { id: 6, title: 'A complete Angular Course', price: 599, desc: this.description, image: './../assets/courses/course2.jpg', rating: 4.9, duration: 20.8, author: 'Sarah King'},
     { id: 7, title: 'A Complete Node JS Bootcamp', price: 449, desc: this.description, image: './../assets/courses/course3.jpg', rating: 3.7, duration: 16.6, author: 'Mark Vought'},
     { id: 8, title: 'A Complete React Developer Course', price: 599, desc: this.description, image: './../assets/courses/course4.jpg', rating: 4.8, duration: 28.2, author: 'Sarah King'},

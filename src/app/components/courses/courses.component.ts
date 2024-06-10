@@ -16,7 +16,7 @@ export class CoursesComponent implements OnInit{
   ngOnInit() {
     //this.searchString=this.activatedRoute.snapshot.queryParams['search']//deprecated
     this.searchString=this.activatedRoute.snapshot.paramMap.get('search');
-    this.searchString===undefined || this.searchString===''
+    this.searchString===undefined || this.searchString==='' || this.searchString===null
       ?this.AllCourses=this.coursesService.courses
       :this.AllCourses=this.coursesService.courses.filter(course=>course.title.toLowerCase().includes(this.searchString!.toLowerCase()));
   }
